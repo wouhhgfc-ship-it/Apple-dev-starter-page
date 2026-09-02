@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding-bottom: 0%;
+}
+body{
+
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background:linear-gradient(135deg,#1d9d74 65%, #24b587 65%);
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+ text-decoration: none;
+    gap: 20px;
+    font-size:12px
+}
+.right-ul {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ nav li{
+    list-style: none;
+}
+  .left-nav ul :first-child(1){
+  font-size: xx-large;
+}
+ nav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+article{
+    display: flex;
+    gap:10px;
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 0;
+ padding-top: 70px;
+    padding-left: 50px;
+    color: whitesmoke;
+}
+.find-address{
+    width: 50%;
+    padding-left: 20px;
+}
+.find-address-h1{
+
+    font-size: 40px;
+    font-weight: 800;
+    /* margin-bottom: 10px; */
+}
+.find-address-img-con{
+    /* max-width: 50%; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.find-address-img-con img{
+    background: transparent;
+
+    width: 100%;
+    height: 600px;
+  display: block;
+}
+
+.find-address-btn{
+    display: flex;
+    gap: 0;
+}
+.find-address-button{
+    border: 0;
+    border-radius: 2px;
+    font-size: large;
+    padding: 10px 25px;
+    margin-top:20px;
+}
+.white-btn{
+    padding: 20px 50px;
+    color: rgba(0, 0, 0, 0.511);
+}
+.black-btn{
+    background-color: black;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+
+}
+main{
+    box-sizing: border-box;
+
+    background-color: whitesmoke;
+    /* padding-top: 50px; */
+    padding: 40px 50px ;
+}
+.real-name{
+ margin-bottom: 30px;
+ padding-left: 30px;
+}
+.real-name-h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: xx-large;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+.real-name p{
+    font-size:smaller;
+    opacity: 0.9;
+}
+.card-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 40px;
+    min-width: 100px;
+}
+.boxs{
+    display: flex;
+    /* width: 30%; */
+    background-color:white;
+    padding:  30px 50px;
+    border-radius: 4px;
+    gap: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+}
+.boxs img{
+    width: 30px;
+    height: 30px;
+}
+.boxs h3{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-bottom: 10px;
+}
+
+.simple-mail-con{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    
+}
+.simple,.each-div{
+    width: 80%;
+    height: 100%;
+
+}
+.each-main{
+    padding: 63px 20px;
+    padding-bottom: 20px;
+
+}
+.each-div{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left:100px; 
+    box-shadow:  1px 1px 2px 2px  rgba(39, 38, 38, 0.189);
+
+
+}
+.each-price {
+ color: #1d9d74;
+
+}
+.each-div img{
+    width: 10%;
+}
+.each-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color:#1d9d74 ;
+    padding: 0;
+    padding: 30px 20px;
+
+    width: 100%;
+    height: 100%;
+}
+ .each-bottom p{
+    opacity: 0.5;
+
+ }
+.simple h2{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.simple {
+    padding: 63px 20px;
+
+    display: flex;
+    flex-direction:column ;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-right: 100px;
+
+    /* width: 50%; */
+}
+.family{
+    display: flex;
+    gap:10px;
+    align-items:center;
+    justify-content: center;
+    padding: 40px 90px;
+    padding-right: 200px;
+    gap: 20px;
+    color:black;
+    background-color: #1d9d75c9 ;
+}
+.family h2{
+    font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+    font-size: xx-large;
+}
+
+/* .simple-mail-con div{
+    width: 50%;
+     display: flex;
+     flex-direction: column;
+    background-color:white;
+    padding:  30px 50px;
+    border-radius: 4px;
+    gap: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+} */
