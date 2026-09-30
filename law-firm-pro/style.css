@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+.site-nav {
+	background-color: transparent;
+	transition: background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.site-nav.is-scrolled {
+	background-color: rgb(247 247 247 / 96%);
+	box-shadow: 0 4px 18px rgb(18 79 58 / 12%);
+	backdrop-filter: blur(10px);
+}
+
+@keyframes testimonial-slide {
+	0%,
+	21.875% {
+		transform: translateX(0);
+	}
+	25%,
+	46.875% {
+		transform: translateX(-20%);
+	}
+	50%,
+	71.875% {
+		transform: translateX(-40%);
+	}
+	75%,
+	96.875% {
+		transform: translateX(-60%);
+	}
+	100% {
+		transform: translateX(-80%);
+	}
+}
+
+.testimonial-track {
+	animation: testimonial-slide 16s linear infinite;
+	width: 500%;
+}
+
+.testimonial-viewport {
+	width: min(calc(92vw + 22px), calc(48rem + 22px), 100%);
+	min-height: 360px;
+}
+
+.testimonial-track > * {
+	flex: 0 0 20%;
+}
+
+.testimonial-slide {
+	min-height: 360px;
+	justify-content: center;
+	background-color: #fff;
+	background-image: url('../law-firm-img/texas-healthcare-acquisition-counsel-bella-law-pllc.image.quote.Woblo%20(2).svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 130px auto;
+}
+
+.testimonial-track:hover {
+	animation-play-state: paused;
+}
